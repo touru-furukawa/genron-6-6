@@ -1,21 +1,24 @@
 title: TODO
-logline: TODO
-readers: TODO
-concept: TODO
+logline: 葬儀の途中、恩師が息を吹き返した。輪廻転生を信じるオカルト信者と、葬儀を続行しようとする僧侶に対抗し、科学者は葬儀を中断しようとする。
+readers: 大森望
+concept: 魂たるニューラルネットワークモデルが再利用されていたら
 theme: TODO
 characters:
   - main:
-      outside: TODO
-      inside: TODO
-      history: TODO
-      ordeal: TODO
+      outside: 中年の科学者。
+      inside: 非科学的な思考を見下し、驚異だとみなしている。
+      history: 科学者として育てられ、学校で科学を教えている。TODO
+      ordeal: オカルト信者や宗教を撲滅したい。
   - sub:
       outside: TODO
       inside: TODO
       history: TODO
 settings:
-  - いつどこで: TODO
-  - だれがなにをする: TODO
-  - ITEM:
-      description: blah blah blah
+  - いつどこで: 輪廻転生が信じられている世界
+  - だれがなにをする: 科学者が、息を吹き返した知人を守ろうとする
+  - 弔華:
+      description: ニューラルネットワークから、基本的な性格や才能を残し、記憶を経験を取り除くプロセス。傾向を持った新たな魂として再利用される。これにより、人類社会の進化が高速化する。
       depends_on: ANOTHER ITEM
+  - デジャブ:
+      description: ニューラルネットワークに残った記憶を知覚すること。
+      depends_on: ITEM
