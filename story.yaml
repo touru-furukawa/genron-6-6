@@ -34,3 +34,6 @@ settings:
   - 夢アイル:
       description: 洗滌中の囚人が、社会生活できるように訓練するための人工島。
       depends_on: 洗滌
+  - 巫女:
+      description: 漂白をする専門職。
+      depends_on: 漂白
