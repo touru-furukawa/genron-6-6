@@ -1,21 +1,39 @@
-title: TODO
-logline: TODO
-readers: TODO
-concept: TODO
-theme: TODO
+logline: 僧侶が、犯罪者の記憶を漂白しようとするが、犯罪者は僧侶を乗っ取りそうになる。僧侶は技能のすべてを使って対抗する。
+readers: 大森望
+concept: 魂の性格や行動をのこし、記憶を漂白し、次の世界に再利用される世界。
+theme: 社会と相容れない人格は存在する
 characters:
   - main:
-      outside: TODO
-      inside: TODO
-      history: TODO
-      ordeal: TODO
-  - sub:
-      outside: TODO
-      inside: TODO
-      history: TODO
+    outside:  65歳のおとなしい女性。
+    inside: 慈悲深い。完全な漂白をしなくても、罪人は更生できると信じている。
+    history: 夫を殺害した実子が、漂白により社会復帰した。実子の問題ではなく、夫の接し方に問題があったと信じようとしている。
+    mission: ゆるやかな漂白によって、犯罪者を更生させる。
+  - アリス:
+    outside: 16歳の少女。
+    inside: 破壊衝動がある。
+    history: 破壊衝動により、刃物で何十人も殺害した。悪いと思っていないので、この世界に。光る金属を見ると、破壊衝動が起こる。
+  - ボブ:
+    outside: 40歳の男性。
+    inside: サイコパス。他人の痛みを気にしない。
+    history: 自分は手をくださずに未必の故意で殺害を繰り返してきたが、てんかんの発作により逮捕される。マイルドに漂白が繰り返され、多重人格的になった本人は、この世界から脱出しようとしている。
 settings:
-  - いつどこで: TODO
-  - だれがなにをする: TODO
-  - ITEM:
-      description: blah blah blah
-      depends_on: ANOTHER ITEM
+  - いつどこで: 魂の記憶が漂白され、機能や性格が再利用されるという矯正施設
+  - だれがなにをする: 僧侶が囚人たちを救済しようとする
+  - リサイクル:
+      description: 更生が無理だと判断された囚人から、人格を取り除き、純粋な労働力の機能だけを残すための処理。うまくいかなければ、漂白をくりかえす。
+      depends_on: 人口問題, 漂白
+  - 漂白:
+      description: 人間の脳機能から、基本的な認知機能だけを残し、記憶や性格を取り除くプロセス。
+      depends_on: 人口問題
+  - デジャブ:
+      description: ニューラルネットワークに残った記憶を知覚すること。
+      depends_on: 漂白
+  - 人口問題:
+      description: 設備を整えたり、アンドロイドを作るコストは賄えないため、人体の需要は高い。不要な人格はたくさんいる＝囚人は溢れている。だから、人格を改造して、社会に有用にして戻したい。
+      depends_on: n/a
+  - 夢アイル:
+      description: リサイクル中の囚人が、社会生活できるように訓練するための人工島。
+      depends_on: リサイクル
+  - 漂白師:
+      description: 漂白をする専門職。
+      depends_on: 漂白
